@@ -1,0 +1,258 @@
+.menu {
+  margin-top: 0.9rem;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 0;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 700;
+}
+
+.boton-secundario {
+  background-color: white;
+  border: none;
+  font-weight: 500;
+}
+
+.boton-principal {
+  background-color: rgb(0, 117, 255);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.75rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.principal .primer-texto {
+  font-size: 1rem;
+  color: rgb(0, 117, 255);
+}
+.principal .segundo-texto {
+  font-weight: 600;
+  font-size: 4rem;
+  color: black;
+}
+.principal .tercer-texto {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+}
+.principal .cta-mail form input {
+  height: 2.9rem;
+  width: 20rem;
+  border-radius: 8px;
+  border-color: #dcdcdc;
+  border-style: solid;
+  margin-right: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.header h2 {
+  font-size: 3rem;
+  color: black;
+  font-weight: 500;
+}
+.header h4 {
+  color: #999999;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.contenido .info {
+  width: 26%;
+}
+.contenido .info h5 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.contenido .info h5 i {
+  font-size: 1rem;
+  color: rgb(0, 117, 255);
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
+.contenido .info p {
+  color: #999999;
+  font-size: 1rem;
+}
+
+.cosas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cosas .cosas-1 {
+  display: flex;
+  flex-direction: column;
+  width: 16%;
+  align-items: center;
+  justify-content: space-around;
+}
+.cosas .cosas-1 i {
+  color: rgb(0, 117, 255);
+  font-size: 6rem;
+}
+.cosas .cosas-1 h3 {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.cosas .cosas-1 h5 {
+  text-align: center;
+  color: #999999;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.cosas .cosas-1 h6 {
+  text-align: center;
+  padding-top: 5rem;
+  color: rgb(0, 117, 255);
+  font-size: 1rem;
+}
+
+.dato {
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+.dato .numeros {
+  font-size: 5rem;
+}
+.dato .parrafo {
+  font-size: 1.2rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos .logo-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logos .logo-1 i {
+  color: rgb(0, 117, 255);
+  font-size: 6rem;
+}
+.logos hr {
+  width: 15%;
+  border: black solid 1px;
+}
+
+.sec-final .header {
+  width: 23%;
+  align-items: flex-start;
+}
+.sec-final img {
+  transform: translate(72%, -18%);
+}
+
+.test i {
+  color: rgb(0, 117, 255);
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+section.sec-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  border-bottom: 1px #b3b3b3 solid;
+}
+
+.sec-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8rem;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.sec-info-1 {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px #b3b3b3 solid;
+}
+
+.sec-info-2 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec-franja {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 117, 255);
+  min-height: 15rem;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.sec-start {
+  gap: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.sec-final {
+  display: flex;
+  flex-direction: row;
+  background-color: #F5F8FF;
+  justify-content: space-evenly;
+  height: 25rem;
+  align-items: flex-end;
+  margin-top: 5rem;
+}/*# sourceMappingURL=index.css.map */

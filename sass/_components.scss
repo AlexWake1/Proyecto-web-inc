@@ -1,0 +1,205 @@
+$color-primario: rgb(0, 117, 255);
+
+.menu {
+    margin-top: 0.9rem;
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding: 0;
+
+        li {
+            list-style: none;
+            a {
+                color: black;
+                text-decoration: none;
+                font-weight: 500;
+            }
+        }
+    }
+}
+.logo a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+}
+.boton-secundario {
+    background-color: white;
+    border: none;
+    font-weight: 500;
+}
+.boton-principal {
+    background-color: $color-primario;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.75rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+    .primer-texto {
+        font-size: 1rem;
+        color: $color-primario;
+        
+    }
+    .segundo-texto {
+        font-weight: 600;
+        font-size: 4rem;
+        color: black;
+    }
+    .tercer-texto {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: black;
+    }
+    .cta-mail {
+        form {
+            input {
+                height: 2.9rem;
+                width: 20rem;
+                border-radius: 8px;
+                border-color: #dcdcdc;
+                border-style: solid;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    h2 {
+        font-size: 3rem;
+        color: black;
+        font-weight: 500;
+    }
+    h4 {
+        color: #999999;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    .info {
+        width: 26%;
+        h5 {
+            color: black;
+            font-size: 1.5rem;
+            font-weight: 600;
+            i{
+                font-size: 1rem;
+                color: $color-primario;
+                padding: 0.1rem 0.25rem;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+            }
+        }
+        p {
+            color: #999999;
+            font-size: 1rem;
+        }
+    }
+}
+
+.cosas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .cosas-1 {
+        display: flex;
+        flex-direction: column;
+        width: 16%;
+        align-items: center;
+        justify-content: space-around;
+
+        i {
+            color: $color-primario;
+            font-size: 6rem;
+        }
+        h3 {
+            text-align: center;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        h5 {
+            text-align: center;
+            color: #999999;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+        h6 {
+            text-align: center;
+            padding-top: 5rem;
+            color: $color-primario;
+            font-size: 1rem;
+        }
+    }
+}
+
+.dato {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    .numeros {
+        font-size: 5rem;
+    }
+    .parrafo {
+        font-size: 1.2rem;
+    }
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        i {
+            color: $color-primario;
+            font-size: 6rem;
+        }
+    }
+    hr {
+        width: 15%;
+        border: black solid 1px;
+    }
+}
+
+.sec-final {
+    .header {
+        width: 23%;
+        align-items: flex-start;
+    }
+    img {
+        transform: translate(72%, -18%);
+    }
+}
+
+.test{
+    i{
+        color: $color-primario;
+        padding: 0.1rem 0.25rem;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    }
+}

@@ -1,0 +1,76 @@
+@use "components";
+
+@mixin seccion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section.sec-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    border-bottom: 1px #b3b3b3 solid;
+}
+
+.sec-home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8rem;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.sec-info-1 {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px #b3b3b3 solid;
+}
+
+.sec-info-2 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sec-franja{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 117, 255);
+    min-height: 15rem;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.sec-start{
+    gap: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.sec-final{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F8FF;
+    justify-content: space-evenly;
+    height: 25rem;
+    align-items: flex-end;
+    margin-top: 5rem;
+}
+
+
